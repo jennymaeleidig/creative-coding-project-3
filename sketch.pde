@@ -8,13 +8,13 @@
 size(600, 600);
 // setup colors - while not part of the weeks material, i read through the docs to save some time on manually inputting hex values each time
 // in the future it could be good to add some gradients to emphasize shadows
-var darkGreen = #3A453E;
-var lightGreen = #484D45;
-var lightestGreen = #A0A887;
-var darkBlue = #292B61;
-var lightYellow = #EBD89F;
-var darkBrown = #21170E;
-var darkestBrown = #110B09;
+color darkGreen = #3A453E;
+color lightGreen = #484D45;
+color lightestGreen = #A0A887;
+color darkBlue = #292B61;
+color lightYellow = #EBD89F;
+color darkBrown = #21170E;
+color darkestBrown = #110B09;
 background(darkBlue); // set so that i can see when an object is not properly filling the background
 
 //the sketch is separated into four logical parts, the room, the door, the window, and the shape / orb that occupies the room.
