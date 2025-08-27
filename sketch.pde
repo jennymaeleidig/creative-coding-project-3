@@ -34,7 +34,7 @@ fill(darkGreen);
 quad(450, 0, 600, 0, 600, 550, 450, 450);
 //floor
 fill(lightestGreen);
-quad(-100, 616.6, 150, 450, 450, 450, 700, 616.6);
+quad(-100, 616.6, 150, 450, 450, 450, 700, 616.6); //getting the floor was a bit tricky, I needed to extrapolate some points outside of the canvas and calculate the slope to ensure lines matched up
 
 //door
 fill(darkestBrown);
