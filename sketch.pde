@@ -6,6 +6,12 @@
 // functions / concepts used related to chapter 3&4
 // variables, types, setup(), draw(), system variables(width), translate(), random(), frameRate()
 
+// The key news features are:
+// - The orb now follows the mouse
+// - The window color flickers blue more rapidly as you approach the door with the shape
+// - The orb scales dynamically to mimic depth
+// - The orb appears to be contained with in the room
+
 // declare colors
 color darkGreen;
 color lightGreen;
